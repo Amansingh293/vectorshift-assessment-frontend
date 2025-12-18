@@ -1,70 +1,271 @@
-# Getting Started with Create React App
+# VectorShift Frontend Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based frontend application built as part of the **VectorShift assessment**.  
+It focuses on creating a **node-based, config-driven pipeline UI** where users can visually construct workflows using draggable and modular nodes.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- ⚛️ Built with **React (Create React App)**
+- 🧩 **Node-based pipeline builder**
+- 🖱️ Draggable and configurable custom nodes
+- 🗂️ Global state management using **Zustand**
+- 🎨 UI built using **Ant Design** along with **Tailwind CSS**
+- 🔄 Config-driven and scalable architecture
+- 🧠 Clean separation of UI, state, and logic
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend:** React, JavaScript (ES6+)
+- **State Management:** Zustand
+- **UI Library:** Ant Design (antd)
+- **Styling:** Tailwind CSS + custom styles
+- **Build Tool:** Create React App
+- **Version Control:** Git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```text
+src/
+│── components/        # Reusable UI components
+│── nodes/             # Custom draggable nodes
+│── store/             # Zustand store & pipeline state
+│── utils/             # Helper functions
+│── assets/            # Static assets
+│── App.js
+│── index.js
+⚙️ Getting Started
+1️⃣ Clone the repository
+bash
+Copy code
+git clone https://github.com/<username>/<repo-name>.git
+2️⃣ Navigate to the project directory
+bash
+Copy code
+cd <repo-name>
+3️⃣ Install dependencies
+bash
+Copy code
+npm install
+4️⃣ Start the development server
+bash
+Copy code
+npm start
+The application will be available at:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+arduino
+Copy code
+http://localhost:3000
+📜 Available Scripts
+bash
+Copy code
+npm start       # Run app in development mode
+npm test        # Run test runner
+npm run build   # Build app for production
+🧠 State Management
+The application uses Zustand for centralized state management
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pipeline structure and node data are stored in a global store
 
-### `npm run eject`
+Submission payloads are derived directly from the pipeline configuration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This approach ensures:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Minimal prop drilling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Predictable data flow
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Easy extensibility for new node types
 
-## Learn More
+🧩 Implemented Node Types
+Input Node
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+LLM Node
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Output Node
 
-### Code Splitting
+Text Node
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Timer Node
 
-### Analyzing the Bundle Size
+Counter Node
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Toggle Node
 
-### Making a Progressive Web App
+Random Message Node
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Random Number Node
 
-### Advanced Configuration
+Each node is modular and designed for easy extension.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📦 Production Build
+bash
+Copy code
+npm run build
+The optimized production build will be generated in the build/ directory and is ready for deployment.
 
-### Deployment
+👤 Author
+Aman Singh
+Frontend Engineer (React)
+VectorShift Assessment Submission
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📄 License
+This project is created for assessment and evaluation purposes.
 
-### `npm run build` fails to minify
+markdown
+Copy code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+### ✅ This README is:
+- Professional
+- Reviewer-friendly
+- Accurate to your **actual stack**
+- Free of CRA boilerplate noise
+- Perfect for **assessment submission**
+
+If you want, I can:
+- 🔹 Make a **short 1-page recruiter version**
+- 🔹 Add **screenshots / demo section**
+- 🔹 Align wording exactly with VectorShift’s product language
+
+Just tell me 👍
+
+
+
+
+
+
+You said:
+
+`git clone https://github.com/<username>/<repo-name>.git`
+
+https://github.com/Amansingh293/vectorshift-assessment-frontend.git
+
+
+ChatGPT said:
+Awesome — I’ve updated the README with your actual GitHub repo URL so you can copy & paste it directly.
+
+md
+Copy code
+# VectorShift Frontend Assessment
+
+This project is a React-based frontend application built as part of the **VectorShift assessment**.  
+It focuses on creating a **node-based, config-driven pipeline UI** where users can visually construct workflows using draggable and modular nodes.
+
+---
+
+## 🚀 Features
+
+- ⚛️ Built with **React (Create React App)**
+- 🧩 **Node-based pipeline builder**
+- 🖱️ Draggable and configurable custom nodes
+- 🗂️ Global state management using **Zustand**
+- 🎨 UI built using **Ant Design** along with **Tailwind CSS**
+- 🔄 Config-driven and scalable architecture
+- 🧠 Clean separation of UI, state, and logic
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, JavaScript (ES6+)
+- **State Management:** Zustand
+- **UI Library:** Ant Design (antd)
+- **Styling:** Tailwind CSS + custom utility classes
+- **Build Tool:** Create React App
+- **Version Control:** Git
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│── components/        # Reusable UI components
+│── nodes/             # Custom draggable nodes
+│── store/             # Zustand store & pipeline state
+│── utils/             # Helper functions
+│── assets/            # Static assets
+│── App.js
+│── index.js
+⚙️ Getting Started
+1️⃣ Clone the repository
+bash
+Copy code
+git clone https://github.com/Amansingh293/vectorshift-assessment-frontend.git
+2️⃣ Navigate to the project directory
+bash
+Copy code
+cd vectorshift-assessment-frontend
+3️⃣ Install dependencies
+bash
+Copy code
+npm install
+4️⃣ Start the development server
+bash
+Copy code
+npm start
+The application will be available at:
+
+arduino
+Copy code
+http://localhost:3000
+📜 Available Scripts
+bash
+Copy code
+npm start       # Run app in development mode
+npm test        # Run test runner
+npm run build   # Build app for production
+🧠 State Management
+The application uses Zustand for centralized state management
+
+Pipeline data and node state are stored in a global store
+
+Submission payloads are derived directly from the pipeline configuration
+
+This approach ensures:
+
+Minimal prop drilling
+
+Predictable data flow
+
+Easy extensibility for future node types
+
+🧩 Implemented Node Types
+Input Node
+
+LLM Node
+
+Output Node
+
+Text Node
+
+Timer Node
+
+Counter Node
+
+Toggle Node
+
+Random Message Node
+
+Random Number Node
+
+Each node is modular and designed for easy extension.
+
+📦 Production Build
+bash
+Copy code
+npm run build
+The optimized production build will be generated in the build/ directory and is ready for deployment.
+
+👤 Author
+Aman Singh
+Frontend Engineer (React)
+VectorShift Assessment Submission
+GitHub: https://github.com/Amansingh293
